@@ -1,37 +1,7 @@
-The Process of running PoseCVAE Anomalous Activity Detection:
-						        ------------------
-						        | Generate Poses |
-						        ------------------
-								↓
-						       -------------------
-						       | Generate Tracks |
-						       -------------------
-								↓
-						      -----------------------
-						      | Generate .npy files |
-						      -----------------------
-								↓
-						  -----------------------------
-						  | Generate final .npy files |
-						  -----------------------------
-								↓
-						 ---------------------------------
-						 | Generate sliding window files |
-						 ---------------------------------
-								↓
-					      ---------------------------------------
-					      | Training using sliding window files |
-					      ---------------------------------------
-								↓
-					       --------------------------------------
-					       | Testing using sliding window files |
-					       --------------------------------------
-
-
 -------------------------------------------------------------------------------------------------------------------------------------------
 Note: HRNet requires CUDA driver version 10 while AlphaPose works with version 9
 
-      If using HRNet+PoseFlow, generate poses using version 10 and rest of the process defined above using version 9
+      If using HRNet+PoseFlow, generate poses using version 10 and rest of the process using version 9
       If using AlphaPose+PoseFlow, do everything using version 9
 -------------------------------------------------------------------------------------------------------------------------------------------
 Setting up workable virtual environment:
