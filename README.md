@@ -1,7 +1,7 @@
 # PoseCVAE
 This is a repository for Anomalous Activity Detection using Pose Conditional Variational Auto Encoders (PoseCVAE).
 
-Please clone the repository for the correct intended view of the readme files.
+**Please clone the repository for the correct intended view of the readme files.**
 
 Dataset used:
 
