@@ -30,6 +30,7 @@ The Process of running PoseCVAE Anomalous Activity Detection:
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 Note: HRNet requires CUDA driver version 10 while AlphaPose works with version 9
+
       If using HRNet+PoseFlow, generate poses using version 10 and rest of the process defined above using version 9
       If using AlphaPose+PoseFlow, do everything using version 9
 -------------------------------------------------------------------------------------------------------------------------------------------
