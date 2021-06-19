@@ -7,8 +7,8 @@ For Training:
 
    Helpful Tip: Move the two folders in a new folder in ./training/ only
 
-2. You can either run "combined_stages.py" to train all three stages at once OR you can run each stage{x}.py individually.
-3. If running stage_combined.py, you will have to search for and specify - n_epochs, pretr, tr once
+2. You can either run "stages_combined.py" to train all three stages at once OR you can run each stage{x}.py individually.
+3. If running stages_combined.py, you will have to search for and specify - n_epochs, pretr, tr once
 4. If running each stage individually, you will have to specify - n_epochs, pretr, tr in all three stage{x}.py files individually
    And also specify which ".pth" checkpoint file is being loaded in each of stage 2 and 3 at (or around) "line 395" in the code
 
