@@ -1,0 +1,29 @@
+The Process of running PoseCVAE Anomalous Activity Detection:
+						        ------------------
+						        | Generate Poses |
+						        ------------------
+								↓
+						       -------------------
+						       | Generate Tracks |
+						       -------------------
+								↓
+						      -----------------------
+						      | Generate .npy files |
+						      -----------------------
+								↓
+						  -----------------------------
+						  | Generate final .npy files |
+						  -----------------------------
+								↓
+						 ---------------------------------
+						 | Generate sliding window files |
+						 ---------------------------------
+								↓
+					      ---------------------------------------
+					      | Training using sliding window files |
+					      ---------------------------------------
+								↓
+					       --------------------------------------
+					       | Testing using sliding window files |
+					       --------------------------------------
+
