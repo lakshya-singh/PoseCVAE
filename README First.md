@@ -6,7 +6,7 @@ Note: HRNet requires CUDA driver version 10 while AlphaPose works with version 9
 -------------------------------------------------------------------------------------------------------------------------------------------
 Setting up workable virtual environment:
 
-1) Create two seperate anaconda environments for AlphaPose and simple-HRNet to avoid any possible conflicts as they both have different dependencies. Run [pip install -r requirements.txt] in your environment, in both the folders.
+1) Create two seperate anaconda environments for AlphaPose and simple-HRNet to avoid any possible conflicts as they both have some common dependencies. Run [pip install -r requirements.txt] in your environment, in both the folders.
 
 2) Poseflow works in both of those environments. If there is some issue, run [pip install -r requirements.txt] inside PoseFlow.
 -------------------------------------------------------------------------------------------------------------------------------------------
