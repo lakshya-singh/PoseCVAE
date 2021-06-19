@@ -1,5 +1,5 @@
 # PoseCVAE
-This is a repository for the PoseCVAE data.
+This is a repository for Anomalous Activity Detection using Pose Conditional Variational Auto Encoders (PoseCVAE).
 
 Dataset used:
 
