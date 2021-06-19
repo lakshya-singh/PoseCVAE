@@ -5,7 +5,7 @@
 For Training:
 1. Before each training session, create new ./checkpoints and ./log using "mkDirs.py". You will also have to move ./checkpoints and ./log directories after each training session to some folder.
 
-Helpful Tip: Move the two folders in a new folder in ./training/ only
+   Helpful Tip: Move the two folders in a new folder in ./training/ only
 
 2. You can either run "combined_stages.py" to train all three stages at once OR you can run each stage{x}.py individually.
 3. If running stage_combined.py, you will have to search for and specify - n_epochs, pretr, tr once
