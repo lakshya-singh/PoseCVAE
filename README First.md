@@ -43,8 +43,9 @@ Setting up workable virtual environment:
 
 1) All datasets are in video format make sure to convert them into frames using ffmpeg for tracking using Poseflow
 
-step 1: Download Dataset into ./datasets/ and follow readme.txt present in the same
-step 2: Generate frames using frames.py present in ./frames/ and follow readme.txt present there for further instructions
+	Step 1: Download Dataset into ./datasets/ and follow readme.txt present in the same
+
+	Step 2: Generate frames using frames.py present in ./frames/ and follow readme.txt present there for further instructions
 
 2) All steps require either AlphaPose and Poseflow OR simple-HRNet and Poseflow, which if need be, pytorch branch can also be cloned from github.
 
