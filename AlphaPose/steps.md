@@ -22,7 +22,7 @@ Inputs: path--> give path of frames on which tracker will be applied (same as st
 Outputs: json file per video containing tracks of each individual with an ID assigned, name of each file: alphapose-results-forvis-tracked.json
 
  -----------------------------------------------------------------------------------------------
-Friendly Advice: Step 1 and 2 takes lot of time to generate results(2-3 days), so its better to run them once on all the datasets and obtain final tracked json file for furhter easy file manipulation steps.
+Friendly Advice: Step 1 and 2 takes lot of time to generate results, so its better to run them once on all the datasets and obtain final tracked json file for furhter easy file manipulation steps.
  
  
 Step 3: Run generate_npy.py, which converts json to npy file. Each npy file containes continuous tracks and as soon as tracks breaks a new file is created for same person.
