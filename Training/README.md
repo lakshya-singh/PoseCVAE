@@ -1,1 +1,1 @@
-------The sliding window length is set by default to '7'. To change the sliding window length, change the value of variable 'sliding_window_len', you also need to change the dimensions of hidden layers and dimensions in functions Conv-Encoder and Conv-Decoder.------
+## The sliding window length is set by default to '7'. To change the sliding window length, change the value of variable 'sliding_window_len', you also need to change the dimensions of hidden layers and dimensions in functions Conv-Encoder and Conv-Decoder.
