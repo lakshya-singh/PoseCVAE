@@ -1,3 +1,5 @@
+#Run in shell first: conda install pytorch=0.4.0
+#then install using this requirements file
 torch==0.4.0
 torchvision==0.2.0
 visdom
@@ -6,4 +8,4 @@ pandas
 tqdm
 matplotlib
 opencv-python
-ntpath
+#ntpath
