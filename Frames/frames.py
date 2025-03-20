@@ -20,5 +20,5 @@ for section in sorted(os.listdir(in_path),key=numericalSort):
 		os.makedirs(os.path.join(o_path,section.split('.')[0]))
 		out_path= os.path.join(o_path,section.split('.')[0])
 		# subprocess.call(['ffmpeg', '-i',input_path,'-vf','-q:v','1',out_path+'/%01d.jpg'] )
-		os.system(f"ffmpeg -i {input_path} -qmin 1 -q:v 1 {out_path+'/%01d.jpg'}")\
+		os.system(f"ffmpeg -i {input_path} -qmin 1 -q:v 1 {out_path+'/%01d.jpg'}")
 shutil.move(o_path,'./')
